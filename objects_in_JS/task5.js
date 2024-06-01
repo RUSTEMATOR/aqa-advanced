@@ -7,15 +7,6 @@ const users = [
 ]
 
 
-for (const people of users) {
-    console.log(`${people.firstname} has ${people.email} and is ${people.age} years old.`)
+for (const  {firstname, age, email} of users) {
+    console.log(`${firstname} has ${email} and is ${age} years old.`);
 }
-console.log("")
-console.log("")
-
-
-const [first, second, third, fourth] = users;
-
-console.log(first);
-console.log(fourth);
-console.log(third);
