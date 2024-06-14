@@ -1,12 +1,11 @@
-function age_checker(age){
-    if (age >= 19){
-        return true;
-     } else {
+function ageChecker(age) {
+  if (age >= 19) {
+    return true;
+  } else {
     return false;
-
-    }
+  }
 }
 
-console.log(age_checker(15));
+console.log(ageChecker(15));
 
-console.log(age_checker(25));
+console.log(ageChecker(25));

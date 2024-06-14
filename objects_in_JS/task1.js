@@ -1,4 +1,3 @@
-
 let student = {};
 
 student.firstName = "John";
