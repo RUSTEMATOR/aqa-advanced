@@ -4,9 +4,10 @@ let maybeBoolean = true;
 let maybeNull = null;
 let maybeUndefined = undefined;
 
-function consoleLogWithSpace(message, variable){
-    console.log(message, variable);
-    console.log(" ");}
+function consoleLogWithSpace(message, variable) {
+  console.log(message, variable);
+  console.log(" ");
+}
 
 consoleLogWithSpace("String:", maybeString);
 consoleLogWithSpace("Number:", maybeNumber);
@@ -14,12 +15,12 @@ consoleLogWithSpace("Boolean:", maybeBoolean);
 consoleLogWithSpace("Null:", maybeNull);
 consoleLogWithSpace("Undefined:", maybeUndefined);
 
-
 //____________________________________________________________________________________________
 
-function consoleLogWithSpaceNoVar(message){
-    console.log(message);
-    console.log(" ");}
+function consoleLogWithSpaceNoVar(message) {
+  console.log(message);
+  console.log(" ");
+}
 
 consoleLogWithSpaceNoVar(`Well, who are these?\t`);
 
